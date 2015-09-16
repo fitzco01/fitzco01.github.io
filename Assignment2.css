@@ -1,12 +1,12 @@
 section#high {background-color: red;
-text-color: white;
+color: white;
 }
 section#medium {background-color: orange;
-text-color: white;
+color: white;
 }
 section#low {background-color: gray;
-text-color: black;
+color: black;
 }
 section#done {background-color: black;
-text-color: cyan;
+color: cyan;
 }
