@@ -18,3 +18,5 @@ height: 200px;
 width: 300px;
 overflow: auto;
 }
+section#medium {display: none;
+}
