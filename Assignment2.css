@@ -1,13 +1,13 @@
-section#high {background-color: red;
+section.high {background-color: red;
 color: white;
 }
-section#medium {background-color: orange;
+section.medium {background-color: orange;
 color: white;
 }
-section#low {background-color: gray;
+section.low {background-color: gray;
 color: black;
 }
-section#done {background-color: black;
+section.done {background-color: black;
 color: cyan;
 }
 h2 {color: white;
