@@ -18,8 +18,8 @@ section#left {
   float:left;
 }
 section#right {
-  left: 2px;
   float:right;
+  left: 2px;
 }
 footer {
 background-color: blue;
