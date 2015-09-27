@@ -18,7 +18,6 @@ section#left {
   float:left;
 }
 section#right {
-  background-color:gray;
   float:right;
 }
 footer {
