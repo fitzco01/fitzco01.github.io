@@ -4,16 +4,17 @@ header {
   height: 20px;
   background-color: gray;
   }
-section {
-  width: 50%;
+section#left {
+  float: left;
+    width: 50%;
   margin: 20px;
   border: 1pt black;
   }
-section#left {
-  float: left;
-  }
 section#right {
   float: right;
+    width: 50%;
+  margin: 20px;
+  border: 1pt black;
   }
 footer {
 background-color: blue;
