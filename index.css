@@ -12,11 +12,13 @@ section {
   width: 50%;
   top: 20px;
   margin:0px;
+  border: 1pt solid black;
 }
 section#left {
   float:left;
 }
 section#right {
+  left: 2px;
   float:right;
 }
 footer {
