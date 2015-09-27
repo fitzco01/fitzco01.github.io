@@ -12,6 +12,7 @@ section {
   width: 50%;
   top: 20px;
   border: 10pt solid black;
+  height: 250px;
 }
 section#left {
   float:left;
