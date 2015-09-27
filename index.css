@@ -1,4 +1,4 @@
-header {
+nav {
   display: inline;
   position: fixed;
   top: 20px;
@@ -8,17 +8,15 @@ header {
   height: 20px;
   text-align: center;
   }
-section#left {
-  float: left;
-    width: 50%;
+section {width: 50%;
   margin: 20px;
   border: 1pt black;
+}
+section#left {
+  float: left;
   }
 section#right {
   float: right;
-    width: 50%;
-  margin: 20px;
-  border: 1pt black;
   }
 footer {
 background-color: blue;
