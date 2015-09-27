@@ -8,12 +8,17 @@ nav {
   height: 20px;
   text-align: center;
   }
-section {width: 50%;
+section {
+  width: 50%;
   top: 20px;
   border: 10pt solid black;
-  float: right;
 }
-
+section#left {
+  float:left;
+}
+section#right {
+  float:right;
+}
 footer {
 background-color: blue;
 width: 100%;
