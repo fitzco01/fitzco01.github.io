@@ -30,5 +30,7 @@ clear: both;
 margin: 0px;
 text-align: center;
 color: white;
-list-style-position: inside;
+}
+footer#left {
+  text-align: left;
 }
