@@ -8,6 +8,9 @@ nav {
   height: 20px;
   text-align: center;
   }
+a:hover {
+  background-color:yellow;
+}
 section {
   width: 50%;
   top: 20px;
