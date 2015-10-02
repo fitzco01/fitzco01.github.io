@@ -44,6 +44,5 @@ h3 {
 
 }
 ol {
-  text-align: center;
-  display: inline;
+  margin: 0px;
 }
