@@ -38,3 +38,12 @@ color: white;
 footer#left {
   text-align: left;
 }
+h5 {
+  margin: 0px;
+  border: 5pt solid white;
+}
+ul {
+  margin 0px;
+}
+}
+}
