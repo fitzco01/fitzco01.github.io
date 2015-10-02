@@ -1,4 +1,4 @@
 changeThisPageFunc = function() {
   var checkbox;
-  checkbox = document.querySelector('li');
+  checkbox = document.querySelector('ul');
 } 
