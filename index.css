@@ -34,14 +34,13 @@ clear: both;
 margin: 0px;
 text-align: center;
 color: white;
-border: 1pt solid gray;
 }
 footer#left {
   text-align: left;
 }
 h3 {
   margin: 0px;
-  border: 1pt solid gray;
+  border: 3pt solid gray;
 }
 ul {
   margin 0px;
