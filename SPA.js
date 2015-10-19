@@ -1,16 +1,16 @@
 NewTask = function() {
   
-  input = document.querySelector("#text")
+  input = document.getElementById("#text");
   txt = document.getElementById('#text').value;
   
-  list = document.querySelector("mylist");
+  list = document.createElement("ul");
   item = document.createElement("li");
 
   
   document.body.appendChild(list);
   document.body.appendChild(item);
   document.body.appendChild(txt);
-  document.body.appendChlid(input);
+  document.body.appendChild(input);
   
   list.appendChild(item);
   item.appendChild(input);
