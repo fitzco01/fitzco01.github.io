@@ -1,7 +1,7 @@
 NewTask = function() {
   var text;
   input = document.querySelector('#text').value;
-  list = document.createElement("ul");
+  list = document.querySelector("mylist");
   item = document.createElement("li");
   
   document.body.appendChild(list)
