@@ -5,6 +5,9 @@ NewTask = function() {
   
   
   document.body.appendChild(ul);
+  document.body.appendChild(input)
+  document.body.appendChild(item)
+  
   ul.appendChild(item)
   item.appendChild(input)
 } 
