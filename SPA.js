@@ -1,6 +1,6 @@
 NewTask = function() {
   var text;
-  input = document.querySelector('#text').value;
+  input = document.getElementById('#text').value;
   list = document.querySelector("mylist");
   item = document.createElement("li");
   
