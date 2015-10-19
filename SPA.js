@@ -5,6 +5,9 @@ NewTask = function() {
   item = document.createElement("li");
   
   document.body.appendChild(list)
+  document.body.appendChild(item)
+  document.body.appendChild(input)
+  
   list.appendChild(item)
   item.appendChild(input)
 } 
