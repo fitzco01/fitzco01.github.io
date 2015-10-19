@@ -8,9 +8,6 @@ NewTask = function() {
 
   
   document.body.appendChild(list);
-  document.body.appendChild(item);
-  document.body.appendChild(txt);
-  document.body.appendChild(input);
   
   list.appendChild(item);
   item.appendChild(input);
