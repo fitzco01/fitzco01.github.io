@@ -1,16 +1,12 @@
 NewTask = function() {
+  input = document.getElementById("#text").value;
+  ul = document.getElementById("#mylist");
+  item = document.body.createElement("li")
   
-  input = document.getElementById("#text");
-  txt = document.getElementById('#text').value;
   
-  list = document.createElement("ul");
-  item = document.createElement("li");
-
-  document.body.appendChild(list);
-  
-  list.appendChild(item);
-  item.appendChild(input);
-  item.appendChild(txt);
+  document.body.appendChild(ul);
+  ul.appendChild(item)
+  item.appendChild(input)
 } 
 //By Monday:
-//Have code working so that new tasks can be added (completed as far as possible)
+//Have code working so that new tasks can be added
