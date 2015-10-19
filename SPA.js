@@ -1,14 +1,14 @@
 NewTask = function() {
   input = document.getElementById("#text").value;
   ul = document.getElementById("#mylist");
-  item = document.body.createElement("li")
+  li = document.getElementById("#item")
   
   document.body.appendChild(ul);
   document.body.appendChild(input)
-  document.body.appendChild(item)
+  document.body.appendChild(li)
   
-  ul.appendChild(item)
-  item.appendChild(input)
+  ul.appendChild(li)
+  li.appendChild(input)
 } 
 //By Monday:
 //Have code working so that new tasks can be added
