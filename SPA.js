@@ -12,7 +12,6 @@ NewTask = function() {
   document.body.appendChild(txt);
   document.body.appendChlid(input);
   
-  
   list.appendChild(item);
   item.appendChild(input);
   item.appendChild(txt);
