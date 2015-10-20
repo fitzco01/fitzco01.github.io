@@ -13,8 +13,6 @@ NewTask = function() {
   item.appendChild(input);
   item.appendChild(text);
 } 
-
-
 //Make the static User Interface
 //Wire up the New button
 //Create an li
