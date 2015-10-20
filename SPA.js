@@ -1,18 +1,21 @@
 
 NewTask = function() {
-
-  item = document.createElement("li");
-  input = document.createElement("INPUT");
-  input.type = "checkbox";
-  input.id = "newcheck";
-  checkbox = document.querySelector("#newcheck");
-  checkboxtext = checkbox.value
-  text = document.createTextNode(checkboxtext);
+  textbox = document.querySelector("#textbox");
+  priority = document.querySelector("#priority");
   
-  list = document.querySelector("#mylist");
-  list.appendChild(item);
-  item.appendChild(input);
-  item.appendChild(text);
+  ul = document.querySelector("#mylist");
+  item = document.createElement("li");
+  item.classList.add(priority.value);
+  
+  input = document.createElement("INPUT");
+  input.type = "checkbox"
+  
+  text = document.createTextNode(textbox.value)
+  
+  ul.appendChild(item)
+  item.appendChild(input)
+  item.appendChild(text)
+
 } 
 //Make the static User Interface
 //Wire up the New button
