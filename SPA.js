@@ -1,17 +1,24 @@
+
 NewTask = function() {
-  input = document.getElementById("#text");
-  inputtext = document.getElementById("#text").value;
-  ul = document.getElementById("#mylist");
-  item = document.createElement(li);
+
+  item = document.createElement("li");
+  input = document.createElement("INPUT");
+  input.type = "checkbox";
+  input.id = "newcheck";
+  checkbox = document.querySelector("#newcheck");
+  text = document.createTextNode(checkbox.value);
   
-  document.body.appendChild(ul);
-  document.body.appendChild(inputtext);
-  document.body.appendChild(item);
-  document.body.appendChild(input);
-  
-  ul.appendChild(item);
+  list = document.querySelector("#mylist");
+  list.appendChild(item);
   item.appendChild(input);
-  item.appendChild(inputtext);
+  item.appendChild(text);
 } 
-//By Monday:
-//Have code working so that new tasks can be added
+
+
+//Make the static User Interface
+//Wire up the New button
+//Create an li
+//Create a checkbox
+//create a text node
+//Use querySelector to get the textbox
+//Use the value of the textbox to create the text node
