@@ -6,7 +6,8 @@ NewTask = function() {
   input.type = "checkbox";
   input.id = "newcheck";
   checkbox = document.querySelector("#newcheck");
-  text = document.createTextNode(checkbox.value);
+  checkboxtext = checkbox.value
+  text = document.createTextNode(checkboxtext);
   
   list = document.querySelector("#mylist");
   list.appendChild(item);
