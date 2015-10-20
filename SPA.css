@@ -1,0 +1,11 @@
+ul {
+list-style-type: none;
+}
+.High{color: red;
+}
+.Medium{color: orange;
+}
+.Low{color: gray;
+}
+.Done{text-decoration:line-through;
+}
