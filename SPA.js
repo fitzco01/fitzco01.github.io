@@ -23,6 +23,5 @@ NewTask = function() {
   ul.appendChild(item)
   item.appendChild(input)
   item.appendChild(text)
-  
+}
   window.onload = function() { localSave(ul); restoreList(ul, DoneTask); }
-} 
