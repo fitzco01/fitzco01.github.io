@@ -1,4 +1,11 @@
-
+  DoneTask = function() {
+    if(this.checked) {
+    this.parentNode.classList.add("Done")
+    }
+    else {
+      this.parentNode.classList.remove("Done")
+    }
+  }
 NewTask = function() {
   textbox = document.querySelector("#textbox");
   priority = document.querySelector("#priority");
@@ -9,7 +16,8 @@ NewTask = function() {
   
   input = document.createElement("INPUT");
   input.type = "checkbox"
-  
+  input.onclick = DoneTask;
+
   text = document.createTextNode(textbox.value)
   
   ul.appendChild(item)
