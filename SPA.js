@@ -16,10 +16,3 @@ NewTask = function() {
   item.appendChild(input)
   item.appendChild(text)
 } 
-//Make the static User Interface
-//Wire up the New button
-//Create an li
-//Create a checkbox
-//create a text node
-//Use querySelector to get the textbox
-//Use the value of the textbox to create the text node
