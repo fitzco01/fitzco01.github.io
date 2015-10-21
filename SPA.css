@@ -2,12 +2,12 @@ ul {
 list-style-type: none;
 }
 body {background-color: blue;
-border: 1 px solid black;
+border: 1pt solid black;
 }
 h1 {color: white;
 }
 nav {background-color: gray;
-border: 1 px solid black;
+border: 1pt solid black;
 text-align: center;
 }
 .High{color: red;
