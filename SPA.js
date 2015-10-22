@@ -1,9 +1,9 @@
   DoneTask = function() {
     if(this.checked) {
-    this.parentNode.classList.add("Done")
+    this.parentNode.classList.add("done")
     }
     else {
-      this.parentNode.classList.remove("Done")
+      this.parentNode.classList.remove("done")
     }
   localSave("mylist"); 
   }
