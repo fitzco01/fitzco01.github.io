@@ -5,6 +5,7 @@
     else {
       this.parentNode.classList.remove("Done")
     }
+  localSave("mylist"); 
   }
 NewTask = function() {
   textbox = document.querySelector("#textbox");
@@ -23,5 +24,7 @@ NewTask = function() {
   ul.appendChild(item)
   item.appendChild(input)
   item.appendChild(text)
+  
+  localSave("mylist")
 }
-  window.onload = function() { localSave(ul); restoreList(ul, DoneTask); }
+  window.onload = function() {restoreList("mylist", DoneTask); }
